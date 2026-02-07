@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class VectorStack<T> implements IStack<T> {
+public class VectorStack<T> implements Stack<T> {
     private Vector<T> data = new Vector<>(); // [cite: 9, 38]
 
     public void push(T value) { data.add(value); }
